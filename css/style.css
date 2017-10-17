@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+}
+
+#content {
+    width: 800px;
+    display: table;
+    margin: auto;
+}
+
+#main-content {
+    display: block;
+    width: 580px;
+    padding: 5px;
+    padding-right: 15px;
+    float: left;
+}
+
+#main-content h2:after {
+    height: 20px;
+    content:' ';
+    display: block;
+}
+
+#main-content p:after {
+    height: 20px;
+    content:' ';
+    display: block;
+}
+
+#list-other li{
+
+    margin-left:15px;
+}
+
+#sidebar {
+    display: block;
+    float: right;
+    width: 190px;
+    padding: 5px;
+}
+
+#contacts {
+    text-align: left;
+    list-style-type: none;
+}
+
+.no-float {
+    display: block;
+    clear: both;
+}
